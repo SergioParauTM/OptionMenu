@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/help"
+        android:title="@string/help"/>
+
+
+    <item
+
+        android:id="@+id/checked"
+        android:title="@string/checked"
+        android:checkable="true"
+         />
+
+    <item
+        android:id="@+id/submenu"
+
+        android:title="@string/submenu">
+        <menu>
+        <group  android:checkableBehavior="single">
+            <item
+                android:id="@+id/radio"
+                android:title="@string/radio"
+                android:checked="false"
+                 />
+
+            <item
+                android:id="@+id/radio1"
+                android:title="@string/radio1"
+                android:checked="false"
+               />
+            <item
+            android:id="@+id/radio2"
+            android:title="@string/radio2"
+            android:checked="false"/>
+
+        </group>
+        </menu>
+
+    </item>
+
+</menu>
